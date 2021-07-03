@@ -1,0 +1,27 @@
+html {
+    background: url(img/0.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.body {
+    margin: 0;
+}
+
+.button {
+    font-size: 16px;
+    color: black;
+    border:1px solid black;
+    background: none;
+}
+
+#todo-list {
+    list-style: none;
+}

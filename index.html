@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+
+
+    <h2 id="clock" style="font-size: 40px; text-align:left">00:00</h2>
+
+    <div id="weather" style="font-weight: 500; font-size: 18px; text-align: left;">
+        <span></span>
+        <span></span>
+    </div>
+    <p></p>
+    <form id="login-form" class="hidden">
+        <input type="text" 
+        required
+        size=14; 
+        maxlength="15"
+        placeholder="What is your name?" />
+        <p></p>
+        <button class="button">Log In</button>
+    </form>
+
+    <p id="greeting" class="hidden" style="font-weight: 700; font-size: 30px;"></p>
+    
+    <button id="logout-form" class="hidden button" >Log Out</button>
+
+    <p></p>
+
+    <form id="todo-form">
+        <input type="text"
+        size=24; 
+        placeholder="Write a To Do and Press Enter" 
+        required/>
+    </form>
+    
+    <ul id="todo-list">
+        <li class="hidden">
+            <span ></span>
+            <button class="button"></button>
+        </li>
+    </ul>
+
+    <div id="quote" style="font-weight: 900; font-size: 18px; vertical-align: bottom; position: relative;">
+        <span ></span>
+        <span ></span>
+    </div>
+    
+    <script src=js/greetings.js></script>
+    <script src=js/clock.js></script>
+    <script src=js/quotes.js></script>
+    <!-- <script src=js/background.js ></script> -->
+    <script src=js/todo.js></script>
+    <script src=js/weather.js></script>
+</body>
+</html>
