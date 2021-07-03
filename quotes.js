@@ -27,6 +27,10 @@ const quotes = [
         quote: " 먼저핀꽃은 먼저진다  남보다 먼저 공을 세우려고 조급히 서둘것이 아니다",
         author: "채근담",
     },
+    {
+        quote: " 일병은 죄다",
+        author: "박수환",
+    },
 ];
 
 const quote = document.querySelector("#quote span:first-child");
