@@ -10,7 +10,7 @@ function onGeoOk(position) { // 성공시 자체적으로 현재 포지션을 �
         .then((data)=> {
             const city = document.querySelector("#weather span:first-child");
             const weather = document.querySelector("#weather span:last-child");
-            weather.innerText = `${data.weather[0].main} \ ${data.main.temp} `;
+            weather.innerText = `${data.weather[0].main} \ ${data.main.temp}°`;
             city.innerText = data.name;
     });
 }
